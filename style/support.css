@@ -1,0 +1,102 @@
+#support_container {
+	width: 930px;
+	height: 800px;
+	margin-left: 30px;
+}
+
+#donations, #time {
+	border-bottom: 1px solid #DEDEDE;
+}
+
+
+#donations {
+	padding-bottom: 50px;
+}
+
+
+#time, #fundraising {
+	padding-bottom: 20px;
+}
+
+#donations, #time, #fundraising {
+	width: 930px;
+	height: 280px;
+	margin-top: 20px;
+}
+
+#time, #fundraising {
+	clear: both;	
+}
+
+.image_box {	
+	float: left;
+	width: 300px;
+	border-right: 1px solid #DEDEDE;
+}
+
+.text_box {
+	float: right;
+	width: 600px;
+}
+
+#support_container ul {
+	color: #6C665A;
+	font-size: 13px;
+	line-height: 18px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+#support_container a {
+ 	color: #6C665A;
+	font-weight: bold;
+}
+
+#support_container a:hover {
+ 	color: #F7BC15;
+	font-weight: bold;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 570px) {
+
+#support_container, #donations, #time, #fundraising {
+	margin-left: auto!important;
+	margin-right: auto!important;
+	max-width: 300px!important;
+	height: auto!important;
+}
+
+#donations img {
+	margin-top: 120px!important;
+	float: none!important;
+}
+
+#donations div, #time img, #time div, #fundraising img, #fundraising div {
+	float: none!important;
+	max-width: 300px!important;
+}
+
+#donations {
+	padding-bottom: 20px!important;
+}
+
+#donations div, #time div, #fundraising div {
+	min-width: 300px !important;
+	width: 96%!important;
+	padding-left: 2!important;
+	padding-right: 2!important;
+}
+	
+h3, p, ul {
+	margin-left: 6%!important;
+	margin-right: 6%!important;
+}
+
+p, ul {
+	font-size: 16px!important;
+	line-height: 28px!important;
+}
+
+}
