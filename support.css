@@ -13,7 +13,7 @@ main > div { width:930px; height:280px; margin-top:20px; }
 #donations, #time { overflow:hidden; margin-bottom:30px; padding-bottom:20px; }
 .image_box { float:left; width:300px; }
 .text_box { float:right; width:600px; }
-#support_container ul { font-size:13px; }
+#support_container ul { font-size:15px; }
 }
 
 /* Mobile */

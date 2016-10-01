@@ -1,14 +1,10 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-
-<title>Find out the latest news from Jesus In Action - Charity</title>
-
-<meta charset="UTF-8">
-<meta name="description" content="From fundraising initiatives to project openings - get the latest news from Jesus In Action here">
+<title>Annual News Articles | Jesus In Action Charity</title>
+<?php include('structure/meta.php'); ?>
+<meta name="description" content="Keep yourself up to date with the latest news. From fundraising initiatives to project openings - get the latest news from Jesus In Action here.">
 <meta name="keywords" content="jesus in action, childrens charity, childrens charities, orphan charity, orphan charities, donate to childrens charity, donate to childrens charities, guyana orphans, orphans in guyana, children in guyana, guyana charity, guyana charities, south american charity, south american charities">
-<meta content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" name="viewport">
-
 <link rel="stylesheet" type="text/css" href="style/news.css" />
 <?php include('structure/styles.php'); ?>
 <?php include('structure/icons.php'); ?>
@@ -33,29 +29,19 @@
 	
 	<!-- Mobile & Desktop Nav -->
 	<div id="header">
-		<div id="nav">
-			<ul id="main_nav">
-				<li class="baseline"><a href="/">home</a></li>
-				<li class="baseline"><a href="about.php">about</a></li>
-				<li id="current_page" class="baseline">news</li>
-				<li id="logo"><img src="../images/logo.png" alt="Jesus in Action logo" /></li>
-				<li class="baseline"><a href="support.php">support</a></li>
-				<li class="baseline"><a href="contact.php">contact</a></li>
-				<li class="baseline"><a href="blog.php">blog</a></li>
-			</ul>
-		</div>
+		<?php include('structure/nav.php'); ?>
 	</div>
 	<!-- /Mobile & Desktop Nav -->
 			
 	<main>
 		<div class="rows">
-			<a class="article-2013" href="news/2013.php"></a> 
-			<a class="article-2012" href="news/2012.php"></a> 
+			<a class="article-2013" href="news-archive/2013"></a> 
+			<a class="article-2012" href="news-archive/2012"></a> 
 		</div>
 		<div class="rows">
-			<a class="article-2011" href="news/2011.php"></a> 
-			<a class="article-2010" href="news/2010.php"></a> 
-			<a class="article-2009" href="news/2009.php"></a> 
+			<a class="article-2011" href="news-archive/2011"></a> 
+			<a class="article-2010" href="news-archive/2010"></a> 
+			<a class="article-2009" href="news-archive/2009"></a> 
 		</div>
 		<?php include('structure/footer.php'); ?> 	
 	</main>

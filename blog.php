@@ -1,14 +1,10 @@
 ﻿<!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-<title>Jesus In Action: Charity - catch up with the latest news on our blog</title>
-
-<meta charset="UTF-8">
-<meta name="description" content="Jesus in Action aims to provide safe homes for vulnerable, excluded, and deprived children to help them achieve their full potential.">
+<html>
+<head>
+<?php include('structure/meta.php'); ?>
+<title>Jesus In Action Blog | Jesus In Action Charity</title>
+<meta name="description" content="Catch up with the latest news on our blog. Jesus in Action aims to provide safe homes for vulnerable, excluded, and deprived children to help them achieve their full potential. Read our blog for the latest updates on this charity.">
 <meta name="keywords" content="jesus in action, childrens charity, childrens charities, orphan charity, orphan charities, donate to childrens charity, donate to childrens charities, guyana orphans, orphans in guyana, children in guyana, guyana charity, guyana charities, south american charity, south american charities">
-<meta content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" name="viewport">
-
 <link rel="stylesheet" type="text/css" href="style/blog.css">
 <?php include('structure/styles.php'); ?>
 <?php include('structure/icons.php'); ?>
@@ -17,7 +13,7 @@
 
 </head>
 
-<body>
+<body class="offcanvas-closed">
 
 <div id="container">
 
@@ -34,17 +30,7 @@
 	
 	<!-- Mobile & Desktop Nav -->
 	<div id="header">
-		<div id="nav">
-			 <ul id="main_nav">
-				<li class="baseline"><a href="/">home</a></li>
-				<li class="baseline"><a href="about.php">about</a></li>
-				<li class="baseline"><a href="news.php">news</a></li>
-				<li id="logo"><img src="images/logo.png" alt="Jesus In Action logo"></li>
-				<li class="baseline"><a href="support.php">support</a></li>
-				<li class="baseline"><a href="contact.php">contact</a></li>
-				<li id="current_page" class="baseline">blog</li>
-			</ul>
-		</div>
+		<?php include('structure/nav.php'); ?>
 	</div>
 	<!-- /Mobile & Desktop Nav -->
 

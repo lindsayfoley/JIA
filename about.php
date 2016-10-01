@@ -1,13 +1,9 @@
 ﻿<!DOCTYPE html>
 <html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<title>About Jesus In Action: Charity - help us build a better future for children in Guyana</title>
-
-<meta charset="UTF-8">
-<meta name="description" content="Jesus in Action was registered as a charitable company in 2008. Debbie Rostron, born in Guyana, is the visionary and driving force behind the charity.">
+<title>About Jesus In Action | Jesus In Action Charity</title>
+<?php include('structure/meta.php'); ?>
+<meta name="description" content="Help us build a better future for children in Guyana. Jesus in Action was registered as a charitable company in 2008. Debbie Rostron, born in Guyana, is the visionary and driving force behind the charity.">
 <meta name="keywords" content="jesus in action, childrens charity, childrens charities, orphan charity, orphan charities, donate to childrens charity, donate to childrens charities, guyana orphans, orphans in guyana, children in guyana, guyana charity, guyana charities, south american charity, south american charities">
-<meta content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" name="viewport">
-
 <link rel="stylesheet" type="text/css" href="style/about.css">
 <?php include('structure/styles.php'); ?>
 <?php include('structure/icons.php'); ?>
@@ -32,17 +28,7 @@
 
 	<!-- Mobile & Desktop Nav -->
 	<div id="header">
-		<div id="nav">
-			<ul id="main_nav">
-				<li class="baseline"><a href="/">home</a></li>
-				<li id="current_page" class="baseline">about</li>
-				<li class="baseline"><a href="news.php">news</a></li>
-				<li id="logo"><img src="../images/logo.png" alt="Jesus In Action logo"></li>
-				<li class="baseline"><a href="support.php">support</a></li>
-				<li class="baseline"><a href="contact.php">contact</a></li>
-				<li class="baseline"><a href="blog.php">blog</a></li>
-			</ul>
-		</div>
+		<?php include('structure/nav.php'); ?>
 	</div>
 	<!-- /Mobile & Desktop Nav -->
 	

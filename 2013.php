@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<title>News from Jesus In Action - Charity</title>
-
-<meta charset="UTF-8">
-<meta name="description" content="From fundraising initiatives to project openings - get the latest news from Jesus In Action here">
+<title>Recap of events in 2013 | News Archive | Jesus In Action Charity</title>
+<?php include('../structure/meta.php'); ?>
+<meta name="description" content="From fundraising initiatives to project openings - here is a recap of what Jesus In Action achieved in 2013">
 <meta name="keywords" content="jesus in action, childrens charity, childrens charities, orphan charity, orphan charities, donate to childrens charity, donate to childrens charities, guyana orphans, orphans in guyana, children in guyana, guyana charity, guyana charities, south american charity, south american charities">
-<meta content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" name="viewport">
-
 <link rel="stylesheet" type="text/css" href="/style/news.css" />
 <?php include('../structure/styles.php'); ?>
 <?php include('../structure/icons.php'); ?>
@@ -16,7 +12,7 @@
 <?php include('../structure/legacy.php'); ?>
 </head>
 
-<body>
+<body class="offcanvas-closed">
 
 <div id="container">
 
@@ -33,17 +29,7 @@
 	
 	<!-- Mobile & Desktop Nav -->
 	<div id="header">
-		<div id="nav">
-			<ul id="main_nav">
-				<li class="baseline"><a href="\">home</a></li>
-				<li class="baseline"><a href="/about.php">about</a></li>
-				<li class="baseline"><a href="/news.php">news</a></li>
-				<li id="logo"><img src="../images/logo.png" alt="Jesus in Action logo" /></li>
-				<li class="baseline"><a href="/support.php">support</a></li>
-				<li class="baseline"><a href="/contact.php">contact</a></li>
-				<li class="baseline"><a href="/blog.php">blog</a></li>
-			</ul>
-		</div>
+		<?php include('../structure/nav.php'); ?>
 	</div>
 	<!-- /Mobile & Desktop Nav -->
 	
@@ -56,7 +42,7 @@
 			by JIA Trustees Pastor John Richards and Evangelist Debbie Rostron. The trustees spent a full week pleading with the Guyanese Revenue Authority to clear the shipment: 
 			in the end the goods were released one day before Mark was due to fly back to the UK. Despite these setbacks, he worked long and hard in the tropical heat fitting 
 			guttering and down-pipes, and made good progress in bringing the building nearer completion.</p>
-			<a class="more-articles" href="/news.php">Back &gt;</a>
+			<a class="more-articles" href="/news">Back &gt;</a>
 		</div>
 		<?php include('../structure/footer.php'); ?>
 	</main>

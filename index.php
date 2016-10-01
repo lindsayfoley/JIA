@@ -1,14 +1,9 @@
 ﻿<!DOCTYPE html>
 <html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-<title>Jesus In Action: Charity - help us build a better future for children in Guyana</title>
-
-<meta charset="UTF-8">
-<meta name="description" content="Jesus in Action aims to provide safe homes for vulnerable, excluded, and deprived children to help them achieve their full potential.">
+<title>Home | Jesus In Action Charity</title>
+<?php include('structure/meta.php'); ?>
+<meta name="description" content="Help us build a better future for children in Guyana. Jesus in Action aims to provide safe homes for vulnerable, excluded, and deprived children to help them achieve their full potential. Our first home will be opening up soon, October 2016.">
 <meta name="keywords" content="jesus in action, childrens charity, childrens charities, orphan charity, orphan charities, donate to childrens charity, donate to childrens charities, guyana orphans, orphans in guyana, children in guyana, guyana charity, guyana charities, south american charity, south american charities">
-<meta content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" name="viewport">
-
 <?php include('structure/styles.php'); ?>
 <?php include('structure/icons.php'); ?>
 <?php include('structure/scripts.php'); ?>
@@ -33,17 +28,7 @@
 	
 	<!-- Mobile & Desktop Nav -->
 	<div id="header">
-		<div id="nav">
-			 <ul id="main_nav">
-				<li id="current_page" class="baseline">home</li>
-				<li class="baseline"><a href="about.php">about</a></li>
-				<li class="baseline"><a href="news.php">news</a></li>
-				<li id="logo"><img src="images/logo.png" alt="Jesus In Action logo"></li>
-				<li class="baseline"><a href="support.php">support</a></li>
-				<li class="baseline"><a href="contact.php">contact</a></li>
-				<li class="baseline"><a href="blog.php">blog</a></li>
-			</ul>
-		</div>
+		<?php include('structure/nav.php'); ?>
 	</div>
 	<!-- /Mobile & Desktop Nav -->
 
