@@ -1,0 +1,48 @@
+/* Structure */
+body { font-family:Arial, Helvetica, sans-serif;  background-image:url(/images/bg.jpg); -webkit-text-size-adjust:100%; }
+body, nav { margin:0 auto; }
+img { border:0; }
+#header { background-color:white; width:100%; height:125px; border-top:solid 4px #a33a1c; }
+nav, nav ul { height:auto; }
+nav ul { list-style-type:none; padding-left:0; }
+nav ul, h3, .sub_header { margin:0; }
+nav ul li, nav ul a { color:black; }
+nav ul li, h3, .sub_header { font-weight:700; }
+nav ul li, .stack { float:left;  }
+nav ul li { text-transform:capitalize; }
+nav ul li:not(#logo) { border-bottom:solid 1px #ddd; }
+nav ul a, footer *  { text-decoration:none; }
+nav ul a:hover { text-decoration:underline; }
+#current_page { color:#A33A1C!important; }
+footer { border-top:solid 1px #DEDEDE; clear:both; }
+footer * { color:grey; }
+
+/* Text */
+h2 { color:#AE1315; font-size:22px; text-align:center; }
+p { color:#6C665A; font-size:15px; line-height:22px; }
+h3 { color:black; font-size:20px; }
+.sub_header { color:#a33a1c; font-size:17px; line-height:23px; }
+
+/* Lightbox */
+#black_overlay { background:none repeat scroll 0 0 rgba(0, 0, 0, 0.8); display:none; height:100%; left:0; position:fixed; top:0; width:100%; z-index:900; }
+body:not(#about) .lightbox-background { position:absolute; top:50%; left:50%; margin-left:-250px; margin-top:-200px; width:500px; background:white; padding:20px; z-index:1002; }
+.lightbox-background p { font-size:14px; line-height:22px; }
+.lightbox-background h4 { color:#AE1315; }
+
+/* Homepage */
+#homepage { height:240px; margin-top:20px; }
+#welcome_text { margin-top:20px; border:solid 1px #eee; }
+
+/* Desktop only */
+@media all and (min-width:668px)  { 
+#header { min-width:1000px; }	
+header, mainLayer { display:none; } /* Mobile header, nav, off canvas container */
+nav ul li { font-size:15px; }
+nav ul li:not(#logo) { margin-top:55px; padding:10px 43px 10px 42px; border-top:solid 1px #ddd; }
+nav ul a:hover { color:#A33A1C!important; }
+nav, main, footer { width:960px; }
+main { margin:40px auto 0 auto; }
+#welcome_text { width:880px; padding:0 40px; }
+#help_us_image { margin-left:30px; }
+footer { margin:30px auto 0 auto; padding:20px 0; text-align:right; }
+}

@@ -1,0 +1,38 @@
+@media all and (max-width:667px) { 
+	
+/* Structure */
+body { position:relative; }
+body, main > div, footer { min-width:290px; }
+body, main { width:100%; padding:0; }
+body, header, footer { margin:0 auto; }
+#mobile_logo { width:120px; height:auto; position:absolute; top:0; left:31%; }
+main, nav { background-image:url(/images/bg.jpg); }
+main > div { margin-left:15px; margin-right:15px; }
+img { display:block; margin:0 auto; width:100%; }
+ul { padding-left:15px; }
+footer { padding:5px 0; text-align:center; z-index:10; }
+footer small { font-size:11px; }
+
+/* Nav */
+#hamburger, nav { display:block; }
+#hamburger { cursor:pointer; height:40px; padding:8px 4px 3px; position:relative; width:39px; }
+#hamburger div { background-color:#918F90; height:4px; margin-top:5px; margin-left:3px; margin-bottom:3px; width:80%; }
+
+#header { height:0; }
+header { width:100%; background-color:white; border-top:4px solid #A33A1C; padding-bottom:10px; text-decoration:none; position:fixed; top:0; height:100px; z-index:1; -webkit-box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.08); box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.08); }
+#logo { display:none; }
+nav { left:0; top:0; position:absolute; z-index:0; width:70%; height:100%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; overflow-x:hidden; overflow-y:auto; }
+nav ul { list-style:none; margin:0; width:inherit; padding:0; position:fixed; }
+nav ul li { position:relative; font-weight:700; border-bottom:1px solid #D4D4D4; padding:15px; margin-top:10px; float:none; border-top:0; }
+nav ul a:hover { color:black; text-decoration:none; }
+main { padding:120px 0 10px 0; position:relative; width:auto; -webkit-box-shadow:-1px 0 9px 0 rgba(0, 0, 0, 0.4); box-shadow:-1px 0 9px 0 rgba(0, 0, 0, 0.4); height:100%; overflow-x:hidden; }
+
+/* Text */
+h2 { font-size:20px; }
+p, ul:not(nav ul) li { font-size:16px; line-height:28px; }
+.sub_header { font-size:18px; }
+
+/* Homepage */
+body, header, #help_us_image, #help_us_image img, #welcome_text, .blog_post, footer { margin:0 auto; }
+#welcome_text { border:0; }
+}
