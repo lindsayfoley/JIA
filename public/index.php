@@ -11,7 +11,7 @@
 
 </head>
 
-<body class="offcanvas-closed">
+<body id="homepage" class="offcanvas-closed">
 
 <div id="container">
 
@@ -31,18 +31,16 @@
 		<?php include('structure/nav.php'); ?>
 	</div>
 	<!-- /Mobile & Desktop Nav -->
-
+	
 	<main>		
-		<div id="homepage">
-			<a id="help_us_image" href="support.php" title="help us with our mission">
-				<img src="images/hp_hero.jpg" alt="help us with our mission">
-			</a>
-			<div id="welcome_text" class="stack">
-				<h2>Welcome to the Jesus in Action website</h2>
-				<p>Every child has the right to a home and education, and our aim is to make a positive and lasting change in the lives of the children we work with.</p>
-				<p>By providing a safe and secure home, and by teaching them skills in a rural environment away from the city, we believe that we can help some of the most deprived children in Guyana.</p> 
-				<p>Help us build a better future for children in Guyana</p>
-			</div> 
+		<div>
+			<h2>Opening November 2017</h2>
+			<p>Details coming soon!	</p>
+		</div>
+		<div class="stack">
+			<h2>Welcome to Jesus in Action</h2>
+			<p>Every child has the right to a home and education and our aim is to make a positive and lasting change in the lives of the children we work with. By providing a safe and secure home, and by teaching them skills in a rural environment away from the city, we believe that we can help some of the most deprived children in Guyana.</p> 
+			<p>Help us build a better future for children in Guyana</p>
  		</div>
  		<?php include('structure/footer.php'); ?>
 	</main>
