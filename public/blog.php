@@ -13,53 +13,39 @@
 
 </head>
 
-<body class="offcanvas-closed">
+<body id="blog">
 
 <div id="container">
-
-	<!-- Mobile hamburger -->
-	<header>
-		<div id="hamburger">
-			<div>&nbsp;</div>
-			<div>&nbsp;</div>
-			<div>&nbsp;</div>
-		</div>
-		<a href="\"><img id="mobile_logo" src="images/logo.png" alt="Jesus In Action logo"></a>
-	</header>
-	<!-- /Mobile hamburger -->
-	
-	<!-- Mobile & Desktop Nav -->
 	<div id="header">
 		<?php include('structure/nav.php'); ?>
 	</div>
-	<!-- /Mobile & Desktop Nav -->
 
 	<main>
-		<div>
+		<div class="large-12 row">
 			<h2>Home interiors</h2>
 			<h3>25th January 2015</h3>
 				<p>The plumbing for the bathrooms is virtually complete! The bedrooms have been fitted with decorative security grills, and are having fitted wardrobes constructed 
 				in each room.</p>
 		</div>
-		<div>
+		<div class="large-12 row">
 			<h2>Visitors from the UK make a visit to Guyana</h2>
 			<h3>25th January 2015</h3>
 				<p>Heather Rostron, Camille Ali and Lisa Joseph made a trip in March and November 2014 to help with the project. Camille and Lisa helped to design the fitted wardrobes
 				for the bedrooms. Heather created a photo diary and is currenly working on some short videos - hopefully we can showcase these here soon.</p>
 		</div>
-		<div>
+		<div class="large-12 row">
 			<h2>Helping the community with supplies</h2>
 			<h3>25th January 2015</h3>
 				<p>We gave out shoes, clothes, food and supplies donated by various supporters in the UK to people in Parika. We want to especially thank Beacon Of Hope Ministry in
 				Shirley for donating 2 barrels, these were gratefully received.</p>
 		</div>
-		<div>
+		<div class="large-12 row">
 			<h2>Giving the visitors a view of Guyanas unspoilt interior</h2>
 			<h3>25th January 2015</h3>
 				<p>We visited Kaiteur falls in Novemeber 2014, which is an hours flight from the capital city Georgetown. Kaiteur is the third highest single drop waterfall in 
 				the world.</p>
 		</div>
-		<div>
+		<div class="large-12 row">
 			<h2>We have a great new mobile site</h2>
 			<h3>8th August 2014</h3>
 				<p>Have a look at our mobile site - we have just finished it and are really happy with our super duper new mobile optimised version!</p>

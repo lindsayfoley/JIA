@@ -11,36 +11,23 @@
 
 </head>
 
-<body id="homepage" class="offcanvas-closed">
+<body id="homepage">
 
 <div id="container">
-
-	<!-- Mobile hamburger -->
-	<header>
-		<div id="hamburger">
-			<div>&nbsp;</div>
-			<div>&nbsp;</div>
-			<div>&nbsp;</div>
-		</div>
-		<a href="\"><img id="mobile_logo" src="images/logo.png" alt="Jesus In Action logo"></a>
-	</header>
-	<!-- /Mobile hamburger -->
-	
-	<!-- Mobile & Desktop Nav -->
 	<div id="header">
 		<?php include('structure/nav.php'); ?>
 	</div>
-	<!-- /Mobile & Desktop Nav -->
 	
-	<main>		
-		<div>
-			<h2>Opening November 2017</h2>
-			<p>Details coming soon!	</p>
-		</div>
-		<div class="stack">
-			<h2>Welcome to Jesus in Action</h2>
-			<p>Every child has the right to a home and education and our aim is to make a positive and lasting change in the lives of the children we work with. By providing a safe and secure home, and by teaching them skills in a rural environment away from the city, we believe that we can help some of the most deprived children in Guyana.</p> 
-			<p>Help us build a better future for children in Guyana</p>
+	<div id="hero"></div>
+	<div id="hero-copy" class="text-center">
+		<h2>Opening November 2017</h2>
+		<p>Details coming soon!	</p>
+	</div>
+	<main>
+		<div class="large-12 column">
+			<h1 class="text-center">Welcome to Jesus in Action</h1>
+			<p class="text-center">Every child has the right to a home and education and our aim is to make a positive and lasting change in the lives of the children we work with. By providing a safe and secure home, and by teaching them skills in a rural environment away from the city, we believe that we can help some of the most deprived children in Guyana.</p> 
+			<p class="text-center">Help us build a better future for children in Guyana</p>
  		</div>
  		<?php include('structure/footer.php'); ?>
 	</main>
