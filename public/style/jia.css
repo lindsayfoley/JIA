@@ -11,7 +11,7 @@ nav ul a:hover { color:#A33A1C!important; }
 #current_page { color:#A33A1C; }
 main { background-color:#f4f3f1; }
 main a { color:#6C665A; font-weight:bold; }
-main > div:not(#black_overlay) { max-width:960px; float:none!important; margin:0 auto; padding:40px 0; }
+main > div:not(#black_overlay) { max-width:960px; float:none!important; margin:0 auto; padding-top:40px; padding-bottom:40px; }
 h1, h4 { color:#AE1315; }
 p, main li { color:#6C665A; }
 h3 { margin-bottom:0!important; }
@@ -20,6 +20,7 @@ h3 { color:black; font-size:20px; }
 footer { border-top:solid 1px #DEDEDE; padding:20px 0; clear:both; }
 footer * { color:grey; }
 footer small { display:block; }
+footer a { font-weight:normal; }
 
 /***************************************/
 
@@ -63,13 +64,17 @@ body .lightbox-background { position:absolute; top:50%; left:50%; width:500px; m
 .article-2009 { background-image:url(/images/news_2009_sprite1.jpg); }
 
 /* Support */
-#support .row { padding-bottom:10px; }
 #support .row:not(:last-of-type) { border-bottom:1px solid #DEDEDE; }
 #support .row:not(:first-of-type) { margin-top:30px; }
 
 /* Contact */
 #contact main img { padding-bottom:20px; }
 #contact .column { padding-bottom:30px; }
+
+/* Blog */
+#blog h2 { text-align:left; }
+#blog main > div:not(:last-of-type) { border-bottom:1px solid #DEDEDE; }
+#blog main > div { padding-bottom:20px; }
 
 /***************************************/
 
@@ -86,6 +91,8 @@ nav ul li:not(#logo) { padding:15px 40px; border-top:solid 1px #e9e8e8; border-b
 .rows:last-of-type a:hover { background-position:0 0; }
 .article-2012:hover { background-position:-556px 0; }
 .article-2013:hover { background-position:-389px 0; }
+/* Support */
+#support .row { padding-bottom:10px; }
 }
 
 /* Mobile */
@@ -108,8 +115,6 @@ nav ul li:not(:last-of-type) { border-bottom:1px solid #e9e8e8; }
 .article-2012 { background-image:url(/images/2012_mobile.jpg); }
 #news .lightbox-background { width:100%; margin-left:0; margin-top:0%; top:10px; left:0; overflow-y:scroll; height:auto; }
 #support img.medium-12 { max-width:320px; margin:0 auto; padding-bottom:10px; display:block; float:none; } 
-
-
 }
 
 
