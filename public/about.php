@@ -22,7 +22,7 @@
 	<div>
 		<div class="large-6 column">
 			<div class="text_box">
-				<h3>Our Mission Statement</h3>
+				<h2>Our Mission Statement</h2>
 				<p class="sub_header">The Goal</p>
 			  <p>Jesus in Action aims to provide safe homes for vulnerable, excluded, and deprived children to help them achieve their full 
 potential.</p>
@@ -32,7 +32,7 @@ potential.</p>
 					<a id="pic3" class="about3"></a>
 					<a id="pic4" class="about4"></a>					
 				</div>
-			  <h3>Background</h3>
+			  <h2>Background</h2>
 			  <p class="sub_header">How It All Began</p>
 			  <p>Jesus in Action was registered as a charitable company in 2008. Debbie Rostron, born in Guyana, is the visionary and driving force behind the charity. She became concerned about the plight of deprived and vulnerable children in her native country.</p>
 			  <p>She was particularly concerned about the homeless youngsters in Parika and wanted to do something to help improve their lives, and break through the cycle of deprivation. Debbie firmly believes that all children have potential.</p>
@@ -43,7 +43,7 @@ small group homes, with 10 to 12 children in each home, in the Parika area.</p>
 		</div>
    
 		<div class="large-6 column">
-			<h3>Life-Changing</h3>
+			<h2>Life-Changing</h2>
 			<p class="sub_header">Our Plan Of Action</p>
 			<p>A little way westwards up the coast from Guyana’s capital Georgetown is the delta of the mighty Essequibo river, and the small town of Parika, which lies at the termination of the tarmac road.</p>
 			<p>Most of the area of coastal strip here lies below sea level with canals and channels draining the flat plain. Inland from Parika in the ‘backdam’ area is a poor community without clean water, drainage or adequate housing and JIA has been helping some of these people with donations of food and clothing.</p>

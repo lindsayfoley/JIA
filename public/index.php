@@ -18,10 +18,10 @@
 		<?php include('structure/nav.php'); ?>
 	</div>
 	
-	<div id="hero"></div>
-	<div id="hero-copy" class="text-center">
+	<img src="/images/jesus-in-action-building-evolution.jpg" alt="The evolution of Jamie's Home, Jesus in Action's first house in the orphanage">
+	<div id="hero-copy">
 		<h2>Opening November 2017</h2>
-		<p>Details coming soon!	</p>
+		<p>Attend the official opening of Jamie’s Children’s Home, 11am on Monday 20th November 2017. <a href="jamies-home-opening">Find out more &gt;</a></p>
 	</div>
 	<main>
 		<div class="large-12 column">

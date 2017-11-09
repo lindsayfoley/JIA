@@ -20,10 +20,10 @@
 	<main>
 		<div>
 			<div class="large-6 column">
-	        	<h3>We Would Love To Hear From You</h3>
+	        	<h2>We Would Love To Hear From You</h2>
 	            <p class="sub_header">For General Enquiries</p>
 	            <p><a href="mailto:info@jesusinaction.org.uk">info@jesusinaction.org.uk</a></p>
-	            <h3 class="contact_headers">Feedback</h3>
+	            <h2 class="contact_headers">Feedback</h2>
 	            <p class="sub_header">Help us with our mission</p>
 	            <p>We’d love to hear from you if you have any questions or 
 	ideas about how you can help us. If you have experience of working with 
@@ -31,7 +31,7 @@
 	            and thoughts on our project, we highly welcome your ideas or
 	 suggestions</p>
 	            <p>Send us an email:<a href="mailto:info@jesusinaction.org.uk"> info@jesusinaction.org.uk</a></p>
-				<h3 class="contact_headers">JIA Board Of Directors</h3>
+				<h2 class="contact_headers">JIA Board Of Directors</h2>
 				<ul>
 					<li>President: Debra Rostron</li>
 					<li>Secretary / Treasurer: John Richards</li>
@@ -45,7 +45,7 @@
 			<div class="large-6 column">
 	        	<img src="images/newsletter.jpg" alt="Newsletter sign up, don't miss out">
 				<div>
-	                <h3>Stay In Touch</h3>
+	                <h2>Stay In Touch</h2>
 	                <p class="sub_header">We'll Keep You Posted Every Step Of The Way</p>
 	                <p>The Jesus in Action newsletter brings you updates 
 	every six to eight weeks, providing you with the latest agendas and 

@@ -24,7 +24,7 @@
                 <div class="large-12 row">
                     <img class="large-4 medium-12 column" src="images/support_donations.jpg" alt="Help with donations">
                     <div class="large-8 column">
-                        <h3>Help With Donations</h3>
+                        <h2>Help With Donations</h2>
                         <p class="sub_header">Money, Clothes, Food</p>
                         <p>We are currently working on a Just Giving page to enable our charity to accept donations online, for the time being continue reading to see the other available options.</p>
                         <p>At present if you would like to make a donation we can accept cheque payments made payable to 'Jesus in Action Charity' or 'JIA'. You can also make a payment into our charity account, please email us for the account details. We are immensely grateful for any amount you choose to give. Please send us an email making a 'cheque donation' the subject title and we will provide you with the main office address and details.</p>
@@ -35,7 +35,7 @@
                 <div class="large-12 row">
                     <img class="large-4 medium-12 column" src="images/support_time.jpg" alt="Help with your time">
                     <div class="large-8 column">
-                        <h3>Help With Your Time</h3>
+                        <h2>Help With Your Time</h2>
                         <p class="sub_header">We Need You!</p>
                         <p>Volunteering your time and skills is a great way to make a real difference to the lives of children in Parika. You can volunteer for as long as you like and get involved in multiple areas, we are a very small team here so would love you to muck in! You will get the chance to meet new people and make contacts whilst making a valuable contribution.</p>
                         <p>Once our first home is up and running we will be taking on volunteers. Many of our activities will rely on volunteers to run and coordinate classes benefiting hugely from the personal and life experiences that a volunteer can bring.</p>
@@ -46,7 +46,7 @@
                 <div class="large-12 row">
                     <img class="large-4 medium-12 column" src="images/support_fundraising.jpg" alt="Help with fundraising">
                     <div class="large-8 column">
-                        <h3>Help With Fundraising</h3>
+                        <h2>Help With Fundraising</h2>
                         <p class="sub_header">Get Involved</p>
                         <p>Fundraise for Jesus in Action and help us save and change children's lives in Guyana. We've got some great ideas here to inspire your next event... </p>
                         <ul>
