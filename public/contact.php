@@ -34,11 +34,6 @@
 				<h2 class="contact_headers">JIA Board Of Directors</h2>
 				<ul>
 					<li>President: Debra Rostron</li>
-					<li>Secretary / Treasurer: John Richards</li>
-					<li>Director: June Alison Richards</li>
-					<li>Director: Marlon Deygoo</li>
-					<li>Director: Victor John</li>
-					<li>Director: Vernon John</li>
 					<li>Director: Chad Rostron</li>
 				</ul>
 	        </div>
