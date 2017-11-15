@@ -16,6 +16,7 @@ h1, h4 { color:#AE1315; }
 p, main li { color:#6C665A; }
 h2 { margin-bottom:0!important; }
 h2 { color:black; font-size:20px; }
+section p a, section h3 a { color:#A33A1C; }
 .sub_header { color:#a33a1c; font-size:18px; }
 footer { border-top:solid 1px #DEDEDE; padding:20px 0; clear:both; }
 footer * { color:grey; }
@@ -33,6 +34,7 @@ footer a { font-weight:normal; }
 #hero-copy a { display:block; font-size:18px; border:1px solid white; padding:7px; margin-top:20px; width:132px; }
 #homepage main p { font-size:18px; }
 #homepage main p:last-of-type { margin-bottom:0; }
+#mods { clear:both; max-width:960px; width:100%; display:block; margin:30px auto; }
 footer { background-color:white; }
 
 /* About */
@@ -85,6 +87,7 @@ body .lightbox-background { position:absolute; top:50%; left:50%; width:500px; m
 
 @media all and (min-width: 1151px) { #hero-copy { position:absolute; top:210px; margin-left:70px; left:50%; box-shadow:0px 3px 15px rgba(0,0,0,0.2); max-width:380px; } }
 @media all and (max-width: 1150px) { #hero-copy { top:170px; } }
+@media all and (max-width: 1023px) { #mods div:first-of-type { padding-bottom:20px; margin-bottom:30px; border-bottom:1px solid #dfdfdf; } #mods { text-align:center; } }
 
 /* Desktop only */
 @media all and (min-width: 951px) {
@@ -100,6 +103,7 @@ nav ul li:not(#logo) { padding:15px 40px; border-top:solid 1px #e9e8e8; border-b
 .article-2013:hover { background-position:-389px 0; }
 /* Support */
 #support .row { padding-bottom:10px; }
+#mods .row { float:left; }
 }
 
 /* Large mobile */

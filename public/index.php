@@ -29,8 +29,22 @@
 			<p class="text-center">Every child has the right to a home and education and our aim is to make a positive and lasting change in the lives of the children we work with. By providing a safe and secure home, and by teaching them skills in a rural environment away from the city, we believe that we can help some of the most deprived children in Guyana.</p> 
 			<p class="text-center">Help us build a better future for children in Guyana</p>
  		</div>
- 		<?php include('structure/footer.php'); ?>
 	</main>
+	<section>
+ 		<div id="mods" class="large-12 row">
+ 			<div class="large-5 column">
+		 		<h2>Donate Now</h2>
+		 		<p>A close family friend has started a crowdfunding page on JustGiving, in the hopes that we can raise &pound;5000 in donations to support the opening of the orphanage.</p>
+		 		<h3><a target="_blank" href="https://www.justgiving.com/crowdfunding/sarah-bloom">Please help by making a donation &gt;</a></h3>
+	 		</div>
+	 		<div class="large-5 column">
+		 		<h2>Other Ways To Help</h2>
+		 		<p>Want to raise money for Jesus In Action? Our <a href="support">support</a> page is a great place to start. Hold an event, sell your old stuff or get sponsored to do something.</p>
+		 		<h3><a href="support">Visit our support page for more ideas &gt;</a></h3>
+	 		</div>
+ 		</div>	
+ 	</section>
+ 	<?php include('structure/footer.php'); ?>
 </div> 
 
 </body>
