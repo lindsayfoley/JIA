@@ -1,21 +1,9 @@
-var MobileNav = {
+var toggleHamburgerNav = function() {
 	
-	windowWidth : function() {	
-		return $(window).width();
-	},
-	
-	maxMobileWidth: 950,
-
-	toggleNav: function(e) {
-		$('ul').slideToggle();
+	$('.hamburger-container').click(function(e){
+		$('nav').slideToggle();
 		e.stopPropagation();
-	},
-	
-	registerHamburgerIconForTaps: function() {
-		$('.hamburger-container').click(function(){
-			MobileNav.toggleNav();
-		});
-	}
+	});
 };
 
 // Show news assets in lightboxes when clicked
@@ -52,23 +40,14 @@ var indicateCurrentPage = function() {
 			} 
 		} 
 	});
-	
 };
 
 
 $(document).ready(function() {
-	if(MobileNav.windowWidth() <= MobileNav.maxMobileWidth) {
-		MobileNav.registerHamburgerIconForTaps();
-	}
-	
+	toggleHamburgerNav
 	OverlayManager.launch('.rows a');
 	OverlayManager.launch('#sprites a');
 	OverlayManager.exit();
 	indicateCurrentPage();
 });
 
-$(window).resize(function() {
-	if(MobileNav.windowWidth() <= MobileNav.maxMobileWidth) {
-		MobileNav.registerHamburgerIconForTaps();
-	}
-});
