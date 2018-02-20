@@ -1,12 +1,4 @@
-var toggleHamburgerNav = function() {
-	
-	$('.hamburger-container').click(function(e){
-		$('nav').slideToggle();
-		e.stopPropagation();
-	});
-};
-
-// Show news assets in lightboxes when clicked
+// Desktop - show news assets in lightboxes when clicked
 var OverlayManager = {
 	
 	launch: function(clickedElement) {
@@ -40,12 +32,15 @@ var indicateCurrentPage = function() {
 			} 
 		} 
 	});
+	
 };
 
-
 $(document).ready(function() {
-	toggleHamburgerNav
-	OverlayManager.launch('.rows a');
+	// News page destop assets to launch in a lightbox
+	if($(window).width() >= 669) {
+		OverlayManager.launch('.rows a');
+	};
+	
 	OverlayManager.launch('#sprites a');
 	OverlayManager.exit();
 	indicateCurrentPage();

@@ -1,0 +1,26 @@
+#donations, #time { border-bottom:1px solid #DEDEDE; }
+#time, #fundraising { clear:both; }
+.image_box { border-right:1px solid #DEDEDE; }
+#support_container ul { line-height:18px; padding-left:0; list-style-type:none; }
+#support_container ul, #support_container a { color:#6C665A;  }
+#support_container a:hover { color:#F7BC15; }
+#support_container a, #support_container a:hover { font-weight:700; }
+
+/* Desktop */
+@media all and (min-width:668px)  {
+#support_container { width:930px; height:800px; margin-left:30px; }
+main > div { width:930px; height:280px; margin-top:20px; }
+#donations, #time { overflow:hidden; margin-bottom:30px; padding-bottom:20px; }
+.image_box { float:left; width:300px; }
+.text_box { float:right; width:600px; }
+#support_container ul { font-size:15px; }
+}
+
+/* Mobile */
+@media all and (max-width:667px) { 
+main > div { border-bottom:1px solid #DEDEDE; }
+main > div:not-first-of-type { margin-top:10px; }
+#time { margin:20px 0; } 
+h3 { padding-top:15px; }
+ul { padding-left:15px; }
+}

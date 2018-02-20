@@ -22,9 +22,9 @@
 	<main>
 		<div class="large-12 column">
 			<h2>The Official Opening Of Jamie’s Children’s Home</h2>
-			<p>We are pleased to announce the opening of the first house in the orphanage! Please join us for the official opening of Jamie’s Children’s Home, taking place at 11am on Monday 20th November 2017.</p>
+			<p>We are pleased to announce the opening of the first house in the orphanage! We celebrated the official opening of Jamie’s Children’s Home on the 20th November 2017.</p>
 			<img src="/images/jamies-home.jpg" alt="Join us for the official opening of Jamie’s Children’s Home">
-			<h2 class="sub_header">Directions and Contact Details</h2>	
+			<h2 class="sub_header">Directions to Jamie’s Children’s Home and Contact Details</h2>	
 			<p>As you come along the coast road towards Parika, look out for the sign in Ruby, and then head inland on the newly surfaced road for about a mile. If you need to get in touch with us, please call us on 697 8516 or 671 7913. We hope to see you all there!</p>
 		</div>
 		<?php include('structure/footer.php'); ?>
