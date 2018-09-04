@@ -38,7 +38,9 @@
 				</ul>
 	        </div>
 			<div class="large-6 column">
-	        	<img src="images/newsletter.jpg" alt="Newsletter sign up, don't miss out">
+	        	<a href="mailto:news@jesusinaction.org.uk">
+		        	<img src="images/newsletter.jpg" alt="Newsletter sign up, don't miss out">
+	        	</a>
 				<div>
 	                <h2>Stay In Touch</h2>
 	                <p class="sub_header">We'll Keep You Posted Every Step Of The Way</p>
